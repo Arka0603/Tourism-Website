@@ -1,0 +1,832 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Raniganj travels</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet"href="edit.css">
+    <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <!---Navbar-->  
+    <nav class="navbar navbar-expand-lg navbar-light main-navbar
+      bg m-navbar-light" id="main-navbar">
+      <div class="container">
+          <a class="navbar-brand"href="#">Visit Raniganj</a>
+          <button class="navbar-toggler"type="button"data-toggle="collapse"
+          data-target="#my-nav" aria-controls="p-nav"aria-expanded="false"
+          aria-label="toggle-navigation">
+        <span>Menu</span>
+        </button>
+        <div class="collapse navbar-collapse"id="my-nav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a href="index.html"class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#about"class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#places"class="nav-link">Popular Places</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#services"class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#history"class="nav-link">Historical Places</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#blog"class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact"class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+    <!--End of navbar-->
+    <!---Hero-Image-->
+    <section class="hero-wrap" style="background-image:url('1622785197374.jpg');">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row no-gutters main-text align-items-center">
+            <div class="col-lg-7 col-md-6 d-flex align-items-end">
+                <div class="text">
+                    <h1 class="mb-4 text-capitalize">find a perfect deal<br>
+                        for your next trip
+                      </h1>
+                      <p style="font-size:18px;">
+                    you are at the right palce!,we at Raniganj travels invite you to visit our beautiful city and we promisse you won't regret.</p>
+                    <a href="#" class="btn btn-hero py-2 px-3">View all</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!---End of Hero-Image-->
+<!---Search section-->
+<section>
+    <div class="section-search">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 tab-search">
+              <div class="nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <a class="nav-link p-3 active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Flights</a>
+              <a class="nav-link p-3" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"> Hotels</a>
+              <a class="nav-link p-3" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Car Rents</a>
+            
+            </div>
+          </div>
+
+          <div class="tab-content py-5" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+              <div class="block-17">
+                <form class="d-block d-lg-flex">
+                  <div class="fields d-block d-lg-flex">
+
+                    <div class="textfield-search one-third" id="flight1"><input type="text" class="form-control" placeholder="Search Location"></div>
+
+                    <div class="check-in one-third" id="flight2"><input type="date" id="checkin_date" class="form-control" placeholder="Check-in date"></div>
+
+                    <div class="check-out one-third" id="flight3"><input type="date" id="checkout_date" class="form-control" placeholder="Check-out date"></div>
+                    <div class="select-wrap one-third" id='flight4'>
+                   <select name="" id="" class="form-control">
+                        <option value="">Guest</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3+</option>
+                        
+                      </select>
+                    </div>
+                  </div>
+                  <input type="submit" class="search-submit btn btn-primary" value="Find Flights">
+                </form>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+              <div class="block-17">
+                <form action="" method="post" class="d-block d-lg-flex">
+                  <div class="fields d-block d-lg-flex" >
+                    <div class="textfield-search one-third" id="hotel1"><input type="text" class="form-control" placeholder="Search Hotel"></div>
+
+                    <div class="check-in one-third" id="hotel2"><input type="date" id="checkin_oi" class="form-control" placeholder="Check-in date"></div>
+
+                    <div class="check-out one-third" id="hotel3"><input type="date" id="checkout_date" class="form-control" placeholder="Check-out date"></div>
+                    <div class="select-wrap one-third" id="hotel4">
+                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                      <select name="" id="" class="form-control">
+                        <option value="">Guest</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3+</option>
+                        
+                      </select>
+                    </div>
+                  </div>
+                  <input type="submit" class="search-submit btn btn-primary" value="Find Hotels">
+                </form>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+              <div class="block-17">
+                <form action="" method="post" class="d-block d-lg-flex">
+                  <div class="fields d-block d-lg-flex">
+                    <div class="textfield-search one-third" id="cars1"><input type="text" id="cars" class="form-control" placeholder="Search Location"></div>
+
+                    <div class="check-in one-third" id="cars2"><input type="date" id="start_date" class="form-control" placeholder="Start date"></div>
+
+                    <div class="check-out one-third" id="cars3"><input type="date" id="return_date" class="form-control" placeholder="Return date"></div>
+                    <div class="select-wrap one-third">
+                      <div class="icon" id="guests"><span class="ion-ios-arrow-down"></span></div>
+                      <select name="" class="form-control">
+                        <option value="">Guest</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3+</option>
+                        
+                      </select>
+                    </div>
+                  </div>
+                  <input type="submit" class="search-submit btn btn-primary" value="Find Car">
+                </form>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!---End of Search section-->
+<!---Welcome/about section-->
+<section class="about-section mt-5">
+    <a name="about"></a>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 text-center heading-section mb-5">
+                <h2 class="text-black mb-2">Welcome To Raniganj Travels</h2>
+                <p>When Nature meets modern era ,assisted by prestigius history, a place like raniganj is born . We at Raniganj Travels feel great pleasure to introduce you to a hidden gems at the heart of West Bengal-Our Raniganj</p>
+            </div>
+        </div>
+        <div class="row img-wrap mb-5 mb-lg-0">
+            <div class="col-12">
+                <div class="row">
+                    <div class="mb-4 margin-lg-0 col-lg-6 order-lg-2">
+                        <a href="#" class="effect">
+                            <img src="Rath.jpg"alt=""
+                            class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-5 mr-auto text-lg-right align-self-center order-lg-1">
+                        <h2 class="text-black">Culture</h2>
+                        <p class="mb-4">
+                            Raniganj has a wide diversity of culture ,it's a prefect blend of diferent ethinicity.
+                        </p>
+                        <a href="culture.html"  target="_blank" rel="noopener noreferrer" class="btn btn-about" >Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------->
+        <div class="row img-wrap mb-5 mb-lg-0">
+            <div class="col-12">
+                <div class="row">
+                    <div class="mb-4 margin-lg-0 col-lg-6">
+                        <a href="#" class="effect">
+                            <img src="1622785197374.jpg"alt=""
+                            class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-5 ml-auto align-self-center order-lg-1">
+                        <h2 class="text-black">History</h2> 
+                                                <p class="mb-4">
+                            Being one of the oldest city of the state, raniganj has a lot of historical places to visit.
+                        </p>
+                        <a href="history.html"  target="_blank" rel="noopener noreferrer" class="btn btn-about">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------->
+        <div class="row img-wrap mb-5 mb-lg-0">
+            <div class="col-12">
+                <div class="row">
+                    <div class="mb-4 margin-lg-0 col-lg-6 order-lg-2">
+                        <a href="#" class="effect">
+                            <img src="tenthouse.jpg"alt=""
+                            class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-5 mr-auto text-lg-right align-self-center order-lg-1">
+                        <h2 class="text-black">Nature</h2>
+                        <p class="mb-4">
+                            surrounded by bedautiful hills and dams,it is one the places you must visit for reacreation with your family.
+                        </p>
+                        <a href="Nature.html"  target="_blank" rel="noopener noreferrer" class="btn btn-about" >Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------->
+    </div>
+</section>
+<!------------->
+<!---Popular Places-->
+<section>
+    <a name="places"></a>
+      <!-- Popular Places -->
+      <div class="popular section-bg img-effect mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+        <div class="section-title text-center">                      
+          <h1 class="text-white">Popular Places </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ End of Popular Places-->
+    <!-- Other Popular  -->
+    <div class="all-image">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-md-5">
+                    <div class="single-img">
+                        <div class="img-thumb">
+                            <img src="rajbari.jpg" alt="">
+                        </div>
+                        <div class="img-hover">
+                            <div class="title">
+                                    <h3>Royal Palace</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-md-7">
+                    <div class="single-img">
+                        <div class="img-thumb">
+                            <img src="susunia.jpg" alt="">
+                        </div>
+                        
+                        <div class="img-hover">
+                            <div class="title">
+                                    <h3>Sightseeing</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="single-img radial">
+                        <div class="img-thumb">
+                            <img src="hotels.jpg" alt="">
+                        </div>
+                       <div class="img-hover">
+                        <div class="title">
+                        <h3>Resturants</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="single-img radial">
+                        <div class="img-thumb">
+                            <img src="railway.jpg" alt="">
+                        </div>
+                         <div class="img-hover">
+                            <div class="title">
+                                <h3>Railway Station of colonial Era</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-12 col-lg-4">
+                    <div class="single-img radial">
+                        <div class="img-thumb">
+                            <img src="mejia park.jpg" alt="">
+                        </div>
+                     <div class="img-hover">
+                            <div class="title">
+                                    <h3>Recrational Places</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              </div>
+    </div>
+  
+    </section>
+<!--end of Popular Places-->
+<!---services Section-->
+<section id="services" class="services section-bg">
+    <a name="services"></a>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="section-title">
+                    <h2>Services We Provide</h2>
+                    <p>
+                        we provide just what you need!,food accomodation and many more...
+                    </p>
+                </div>
+            </div>
+            <!----->
+            <div class="col-lg-8">
+                <div class="row">
+                    <div class="col-md-6 d-flex align-items-stretch">
+                        <div class="icon-circle purple">
+                            <div class="icon">
+                                <i class="fas fa-drumstick-bite"></i>
+                            </div>
+                            <h4 class="text-white">Good Food</h4>
+                            <p>Raniganj is known for it's diveristy in food items,we take you to the best Resturants in the city.</p>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                        <div class="icon-circle pink">
+                            <div class="icon">
+                                <i class="fas fa-umbrella-beach"></i>
+                            </div>
+                            <h4 class="text-white">Resort</h4>
+                            <p>Choose your place of accomodation,among the most scenic resorts available!</p>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="col-md-6 d-flex align-items-stretch mt-4">
+                        <div class="icon-circle yellow">
+                            <div class="icon">
+                                <i class="fas fa-hiking"></i>
+                            </div>
+                            <h4 class="text-white">Mountain-climbing</h4>
+                            <p>are you a adventurer?,Guess what we have sports like Rockclimbing and Trekking which a adventurer hunts for.</p>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="col-md-6 d-flex align-items-stretch mt-4">
+                        <div class="icon-circle blue">
+                            <div class="icon">
+                                <i class="fas fa-mountain"></i>
+                            </div>
+                            <h4 class="text-white">Picnic spot</h4>
+                            <p>due to presence of few beautiful rivers,we have fesw spots which you can just sit and spent the evening with your dear ones</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!---End of Services Section-->
+<!--- Historical Places Section-->
+<section class="mt-2">
+    <a name="history"></a>
+    <div class="historical-places">
+        <div class="container">
+            <div class="row-justify-content-left">
+                <div class="col-lg-6">
+                    <div class="section-title text-center mb-70">
+                        <h3 class="text-uppercase text-center"><style type="text/css" ></style>Historical places</h3>
+                        <p class="text-center" >Raniganj is a historic city,with monuments,palace,temples and many more.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-dest">
+                        <div class="thumb">
+                            <img src="1622785197374.jpg"class="img-fluid"alt="">
+                            <a href="#"class="price">Rs.50/person</a>
+                        </div>
+                        <div class="dest-info">
+                            <a href="#">
+                                <h3>Royal Palace</h3>
+                            </a>
+                            <p>Historic Raniganj Royal Palace.</p>
+                            <div class="rating d-flex justify-content-between">
+                          <span class="d-flex justify-content-center align-items-center">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <a href="#">(10 Review)</a>
+                          </span>
+                          <div class="days">
+                              <i class="fas fa-clock-o">
+                                  <a hrf="#">2 Days</a>
+                              </i>
+                          </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-dest">
+                        <div class="thumb">
+                            <img src="INA.jpg"class="img-fluid"alt="">
+                            <a href="#"class="price">free</a>
+                        </div>
+                        <div class="dest-info">
+                            <a href="#">
+                                <h3>INA memorial</h3>
+                            </a>
+                            <p>memorial for matyers.</p>
+                            <div class="rating d-flex justify-content-between">
+                          <span class="d-flex justify-content-center align-items-center">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <a href="#">(10 Review)</a>
+                          </span>
+                          <div class="days">
+                              <i class="fas fa-clock-o">
+                                  <a hrf="#">2 Days</a>
+                              </i>
+                          </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-dest">
+                        <div class="thumb">
+                            <img src="RabindraPark.jpg"class="img-fluid"alt="">
+                            <a href="#"class="price">Rs.30/person</a>
+                        </div>
+                        <div class="dest-info">
+                            <a href="#">
+                                <h3>Rabindra Park</h3>
+                            </a>
+                            <p>A family Park.</p>
+                            <div class="rating d-flex justify-content-between">
+                          <span class="d-flex justify-content-center align-items-center">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <a href="#">(10 Review)</a>
+                          </span>
+                          <div class="days">
+                              <i class="fas fa-clock-o">
+                                  <a hrf="#">2 Days</a>
+                              </i>
+                          </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-dest">
+                        <div class="thumb">
+                            <img src="burlington.jpg"class="img-fluid"alt="">
+                            <a href="#"class="price">Rs.20/person</a>
+                        </div>
+                        <div class="dest-info">
+                            <a href="#">
+                                <h3>Burlington</h3>
+                            </a>
+                            <p>Hospital Built in 1869,used as hospital in World War 2.</p>
+                            <div class="rating d-flex justify-content-between">
+                          <span class="d-flex justify-content-center align-items-center">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <a href="#">(10 Review)</a>
+                          </span>
+                          <div class="days">
+                              <i class="fas fa-clock-o">
+                                  <a hrf="#">2 Days</a>
+                              </i>
+                          </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-dest">
+                        <div class="thumb">
+                            <img src="panaroma.jpg"class="img-fluid"alt="">
+                            <a href="#"class="price">Rs.300/person</a>
+                        </div>
+                        <div class="dest-info">
+                            <a href="#">
+                                <h3>Waterpark</h3>
+                            </a>
+                            <p>Panaroma Waterpark & Resort.</p>
+                            <div class="rating d-flex justify-content-between">
+                          <span class="d-flex justify-content-center align-items-center">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <a href="#">(10 Review)</a>
+                          </span>
+                          <div class="days">
+                              <i class="fas fa-clock-o">
+                                  <a hrf="#">2 Days</a>
+                              </i>
+                          </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-dest">
+                        <div class="thumb">
+                            <img src="ashram.jpg"class="img-fluid"alt="">
+                            <a href="#"class="price">Rs.50</a>
+                        </div>
+                        <div class="dest-info">
+                            <a href="#">
+                                <h3>Swami Vivekananda Ahram</h3>
+                            </a>
+                            <p>Beautiful temple for peace.</p>
+                            <div class="rating d-flex justify-content-between">
+                          <span class="d-flex justify-content-center align-items-center">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <a href="#">(10 Review)</a>
+                          </span>
+                          <div class="days">
+                              <i class="fas fa-clock-o">
+                                  <a hrf="#">2 Days</a>
+                              </i>
+                          </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------>
+                
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="btn-hist text-center ">
+                      <div><a href="#" class="btn btn-hist">More Places</a></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!---End of Historical Places Section-->
+<!---Customers Section-->
+<section class="testimonial-section mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2>Happy Customers</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="testimonial-item">
+                    <div class="test-date">
+                        12/02/2021
+                    </div>
+                    <h4>Best services.
+
+                    </h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>One of the best services,highly recommended</p>
+                    <div class="customer">
+                        <div class="test-text">
+                            <h6>Venkatesh Naidu <span>Coimbatore,Chennai</span></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!----->
+            <div class="col-lg-6">
+                <div class="testimonial-item">
+                    <div class="test-date">
+                        10/01/2021
+                    </div>
+                    <h4>Good Experience.
+
+                    </h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                <p>co-operative staff,overall  nice experience</p>
+                    <div class="customer">
+        
+                        <div class="test-text">
+                            <h6>Rajat Aggrawal<span>Ahmedabad,Gujrat</span></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!----->
+        </div>
+    </div>
+</section>
+<!---End of Customers Section-->
+<!--- Blog Section-->
+<section class="blog-section">
+    <a name="blog"></a>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <h2 class="text-center pb-2">
+                        Recent Blog
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="single-blog">
+                    <img src="garhpanchkot.jpg" class="img-fluid" alt="">
+                    <div class="blog-detail">
+                        <div class="blog-date">
+                            March 03,2021
+                        </div>
+                        <a href="#"class="tag">#travel_diaries</a>
+                    </div>
+                    <h4><a href="#">A must visit in Monsoon.</a></h4>
+                </div>
+            </div>
+            <!----->
+            <div class="col-lg-4 col-md-6">
+                <div class="single-blog">
+                    <img src="Turga.jpg" class="img-fluid" alt="">
+                    <div class="blog-detail">
+                        <div class="blog-date">
+                            feb 09,2021
+                        </div>
+                        <a href="#"class="tag">#TravelManiac</a>
+                    </div>
+                    <h4><a href="#">Unknown Waterfall.</a></h4>
+                </div>
+            </div>
+            <!----->
+            <div class="col-lg-4 col-md-6">
+                <div class="single-blog">
+                    <img src="bagpack.jpg" class="img-fluid" alt="">
+                    <div class="blog-detail">
+                        <div class="blog-date">
+                            Jan 08,2021
+                        </div>
+                        <a href="#"class="tag">#bagpack</a>
+                    </div>
+                    <h4><a href="#">Necessary things to carry while traveling.</a></h4>
+                </div>
+            </div>
+            <!----->
+        </div>
+    </div>
+</section>
+<!---End of Blog Section-->
+<!---Contact Section-->
+<section class="contact mt-3">
+     <a name="contact"></a>
+<div class="container">
+    <div class="section-title">
+        <h2 class="text-center">
+            Contact Us
+        </h2>
+        <p class="text-center">
+            So, what are you waiting for,send us your details and pack your bags!
+        </p>
+    </div>
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="icon-box">
+                        <i class="fas fa-share"></i>
+                        <h3>Social Profiles</h3>
+                        <div class="social-links">
+                            <a href="#"class="twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#"class="facebook">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="#"class="instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#"class="linkedin">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="icon-box mt-4">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email Us</h3>
+                        <p>raniganjtrav@gmail.com</p>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="icon-box mt-4">
+                        <i class="fas fa-phone"></i>
+                        <h3>24/7 support</h3>
+                        <p>+91 9869667251</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <form>
+                <div class="form-row">
+                    <div class="col-md-6 form-group">
+                        <input type="text"name="name"class="form-control"
+                        id="name"placeholder="your name">
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <input type="email"name="email"class="form-control"
+                        id="email"placeholder="your email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control"name="subject"
+                    id="subject"placeholder="subject">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control"name="message"row="6"
+                    placeholder="Message"></textarea>
+                </div>
+                <div><a href="#" class="btn btn-about">Send Message</a></div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+</section> 
+<!---End of Contact Section-->
+<footer id="footer">
+    <div class="footer-newsletter">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <h4>Join Our News Letter</h4>
+                    <p>The most inFormative News letter you have came across.</p>
+                    <form>
+                        <input type="email"name="email">
+                        <input type="submit"value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  <div class="container py-4">
+      <div class="copyright">
+          &copy;Copyright<strong><span>Raniganj Travels</span></strong>
+          .All Rights Reserved
+      </div>
+      <div class="credits">
+          Designed by<a href="#">Arka Chatterjee</a>
+      </div>
+  </div>
+</footer>
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
